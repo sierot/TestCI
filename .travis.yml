@@ -1,3 +1,5 @@
+image: gcc
+
 job1:
    stage: build
    script:
