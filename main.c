@@ -8,3 +8,4 @@ int main(int argc, char** argv){
 	printf("%d", c - 8);
 	return (c - 8);
 }
+//TOTEST
