@@ -1,0 +1,14 @@
+job1:
+   stage: build
+   script:
+      - gcc main.c power.c -o power
+   cache:
+      paths:
+         - .
+job2:
+   stage: test
+   script:
+      - ./test.sh
+   cache:
+      paths:
+         - .
